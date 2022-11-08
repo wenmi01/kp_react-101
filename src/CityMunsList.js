@@ -54,6 +54,7 @@ function CityMunsList(){
             <h1>List of City Municipalities</h1>
             <select id="locality-dropdown" name="locality">
             </select>
+            <div>List</div>
 
             {cityMuns.map((citymun)=>{
                 return(
