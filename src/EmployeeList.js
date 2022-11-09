@@ -26,6 +26,7 @@ function EmployeeList(){
                     </div>
                 );
             })}
+
         </div>
     );
 }

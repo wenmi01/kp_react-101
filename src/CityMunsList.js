@@ -56,14 +56,25 @@ function CityMunsList(){
             });
     },[]);
     
+    // city or item
     return (
         <div>
             <h1>List of City Municipalities</h1>
             <select id="locality-dropdown" name="locality">
             </select>
+
+            <h2>Select version 2</h2>
+            <select>
+                {cityMuns.map((item, index)=>{
+                    return(
+                    <option value="{item.name}">{item.name}</option>
+                    );
+                })};
+            </select>
+
             <div>List</div>
 
-            {cityMuns.map((citymun)=>{
+            {/* {cityMuns.map((citymun)=>{
                 return(
                     <div className="card my-2 p-2">
             <div>City/Mun : {citymun.name}</div>
@@ -71,7 +82,7 @@ function CityMunsList(){
                         <div>Municipality Code : {citymun.mun_code}</div>
                     </div>
                 );
-            })};
+            })}; */}
         </div>
     );
 }

@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+
 import Square from './Square';
 
 import Header from './Header';
@@ -16,13 +17,17 @@ import EmployeeList from './EmployeeList';
 
 import CityMunsList from './CityMunsList';
 
+import Staff from './Staff';
+
 function App(){
   return(
     <div className="">
+      <Staff/>
+      <hr />
       <CityMunsList/>
       <hr />
-      <EmployeeList/>
-      <hr />
+      {/* <EmployeeList/>
+      <hr /> */}
       <DynamicForm/>
       <hr />
 
