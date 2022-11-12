@@ -13,16 +13,18 @@ import SampleForm from './SampleForm';
 
 import DynamicForm from './DynamicForm';
 
-import EmployeeList from './EmployeeList';
+// import EmployeeList from './EmployeeList';
 
 import CityMunsList from './CityMunsList';
 
-import Staff from './Staff';
+// import Staff from './Staff';
+import Staff2 from './Staff2';
 
 function App(){
   return(
     <div className="">
-      <Staff/>
+      <Staff2/>
+      {/* <Staff/> */}
       <hr />
       <CityMunsList/>
       <hr />

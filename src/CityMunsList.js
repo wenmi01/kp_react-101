@@ -67,7 +67,7 @@ function CityMunsList(){
             <select>
                 {cityMuns.map((item, index)=>{
                     return(
-                    <option value="{item.name}">{item.name}</option>
+                    <option value="{item.name}" id={item.mun_code}>{item.name}</option>
                     );
                 })};
             </select>
